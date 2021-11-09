@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+    background: rgb(233, 110, 10);
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .cuenta {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+  }
+  
+
+  .cuenta-header,
+  .cuenta p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  
+  .forma-triangulo {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #17c;
+  }
+  
+  .cuenta-header {
+    background: #17c;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .cuenta-contenedor {
+    background: #ebebeb;
+    padding: 12px;
+  }
+  
+  
+  .cuenta p {
+    padding: 12px;
+  }
+  
+  .cuenta input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  
+  .cuenta input[type="email"],
+  .cuenta input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+  }
+  
+ 
+  .cuenta input[type="email"]:focus,
+  .cuenta input[type="password"]:focus {
+    border-color: #888;
+  }
+  
+  .cuenta input[type="submit"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .cuenta input[type="submit"]:hover {
+    background: #17c;
+  }
+  
+
+  .cuenta input[type="submit"]:focus {
+    border-color: #05a;
+  }
